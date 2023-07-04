@@ -1,0 +1,24 @@
+name: develop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - ipython
+  - mypy>=0.971
+  - pip
+  - pytest
+  - pylsp-mypy
+  - python-lsp-black  
+  - python-lsp-ruff 
+  - python-lsp-server  
+  - python=3.11
+  - ruff
+  - pip:
+    - coverage
+    - pre-commit
+    - pytest-console-scripts
+    - pytest-cov
+    - pytest-env
+    - pytest-mock
+    - toml-sort
